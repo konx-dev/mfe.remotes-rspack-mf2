@@ -1,0 +1,30 @@
+{
+  "name": "mfe-remotes-rspack-mf2",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "npm@11.9.0",
+  "type": "module",
+  "workspaces": [
+    "modules/*",
+    "ui/*"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test"
+  },
+  "devDependencies": {
+    "@module-federation/enhanced": "2.1.0",
+    "@rspack/cli": "1.7.8",
+    "@rspack/core": "1.7.8",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "dotenv": "17.3.1",
+    "turbo": "2.8.16",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  }
+}
