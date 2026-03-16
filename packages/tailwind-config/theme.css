@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  /* Mapping to the Shell's CSS variables */
+  --color-primary: var(--primary, #3b82f6);
+}

@@ -5,8 +5,8 @@
   "packageManager": "npm@11.9.0",
   "type": "module",
   "workspaces": [
-    "modules/*",
-    "ui/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "dev": "turbo dev",
