@@ -1,0 +1,4 @@
+/* For Local Dev: Preflight + utilities + core styles */
+@import "tailwindcss" preflight;
+@import "tailwindcss";
+@import "./core.css";

@@ -1,0 +1,3 @@
+/* For Production/MFE: Just the utilities and core styles */
+@import "tailwindcss";
+@import "./core.css";

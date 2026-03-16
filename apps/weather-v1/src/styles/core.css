@@ -1,0 +1,7 @@
+@import "tailwindcss" reference;
+@import "@repo/tailwind-config/theme.css" reference;
+
+/* Your actual styles - No Duplication! */
+.weather-card {
+  @apply bg-primary text-white p-8 shadow-lg;
+}
